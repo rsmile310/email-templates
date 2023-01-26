@@ -1,0 +1,789 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Bioland</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0,"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost&display=swap"
+      rel="stylesheet"
+    />
+
+    <style type="text/css">
+      /* @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,400;1,100&display=swap"); */
+      /* @font-face {
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://res.cloudinary.com/deliteser112/raw/upload/v1668166290/bio-template/fonts/Rustico%20DCU/Rustico-V2-Regular_siw3vh.woff2)
+          format("woff2");
+      } */
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        width: 100%;
+      }
+      body {
+        background-color: #374d57 !important;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        font-family: "Jost", sans-serif;
+      }
+      img {
+        display: block !important;
+        border: 0;
+        -ms-interpolation-mode: bicubic;
+      }
+      .ReadMsgBody {
+        width: 100%;
+      }
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      .images {
+        display: block !important;
+        width: 100% !important;
+      }
+      .MsoNormal {
+        font-family: "Roboto", Open Sans, Arial, Helvetica Neue, Helvetica,
+          sans-serif !important;
+      }
+      p,
+      div {
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+      .button td,
+      .button a {
+        font-family: Open Sans, Arial, Helvetica Neue, Helvetica, sans-serif !important;
+      }
+      .button a:hover {
+        text-decoration: none !important;
+      }
+
+      .bioland-logo {
+        transform: translateY(-35px);
+      }
+
+      .middle-bioland {
+        font-size: 75px;
+      }
+
+      .unsere-schafe {
+        font-size: 45px;
+      }
+      .footer-links-mobile {
+        display: none;
+      }
+      /* MEDIA QUIRES */
+
+      @media only screen and (max-width: 640px) {
+        /* .float-sm-left{
+			float: left;
+		} */
+        .direction-sm-reverse > .image-box {
+          transform: translateY(-227px);
+        }
+        .direction-sm-reverse > .text-box {
+          transform: translateY(320px);
+        }
+        body {
+          width: auto !important;
+        }
+        table[class="display-width"],
+        table[class="mcbc-white"],
+        table[class="mcbc-light"],
+        table[class="mcbc-footer"],
+        table[class="mcbi-header"],
+        table[class="mcbi-cta"],
+        table[class="mcbi-download"],
+        table[class="mcbi-creative"],
+        table[class="mcbc-business"] {
+          width: 320px !important;
+          margin: auto;
+        }
+        table[class="display-width"] table,
+        table[class="mcbc-white"] table,
+        table[class="mcbc-light"] table,
+        table[class="mcbc-footer"] table,
+        table[class="mcbi-header"] table,
+        table[class="mcbi-cta"] table,
+        table[class="mcbi-download"] table,
+        table[class="mcbi-creative"] table,
+        table[class="mcbc-business"] table {
+          width: 100% !important;
+        }
+        table[class="display-width"] .button-width .button {
+          width: auto !important;
+        }
+        table[class="nulltable"] {
+          display: none !important;
+        }
+        .bioland-logo {
+          transform: translateY(0px) !important;
+        }
+
+        .middle-bioland {
+          font-size: 55px !important;
+        }
+
+        .unsere-schafe {
+          font-size: 35px !important;
+        }
+        .footer-links-desktop {
+          display: none;
+        }
+
+        .footer-links-mobile {
+          display: block;
+        }
+
+        .null {
+          display: none !important;
+        }
+        .padding {
+          padding: 0 30px !important;
+        }
+        .padding-inner {
+          padding: 0 15px !important;
+        }
+        .hide-height {
+          height: 0 !important;
+        }
+        .amazing {
+          padding: 0 15px !important;
+        }
+        .business {
+          padding-left: 0 !important;
+        }
+        .business-1 {
+          padding-right: 0 !important;
+        }
+        .sr {
+          padding: 0 35px !important;
+        }
+        .img {
+          width: 100% !important;
+        }
+        .blog {
+          display: block !important;
+        }
+        .about {
+          font-size: 12px !important;
+        }
+      }
+
+      @media only screen and (max-width: 320px) {
+        table[class="display-width"],
+        table[class="mcbc-white"],
+        table[class="mcbc-light"],
+        table[class="mcbc-footer"],
+        table[class="mcbi-header"],
+        table[class="mcbi-cta"],
+        table[class="mcbi-download"],
+        table[class="mcbi-creative"],
+        table[class="mcbc-business"] {
+          width: 100% !important;
+        }
+        .menu {
+          font-size: 12px !important;
+        }
+        .heading1 {
+          font-size: 42px !important;
+          line-height: 1.2;
+        }
+      }
+
+      /* MAIL CHIMP STYLES */
+
+      /**
+			* @tab Body BgColor
+			* @tip Dark color of Section / Body BG
+			*/
+
+      .mcbc-body {
+        /*@editable*/
+        background-color: #495a62 !important;
+      }
+
+      /**
+			* @tab White BgColor
+			* @tip White BgColor
+			*/
+
+      .mcbc-white {
+        /*@editable*/
+        background-color: #ffffff !important;
+      }
+
+      /**
+			* @tab Light BgColor
+			* @tip Light BgColor
+			*/
+
+      .mcbc-light {
+        /*@editable*/
+        background-color: #f7fafb !important;
+      }
+
+      /**
+			* @tab Green Bgcolor
+			* @tip Green Bgcolor
+			*/
+
+      .mcbc-business {
+        /*@editable*/
+        background-color: #27ae60 !important;
+      }
+
+      /**
+			* @tab Footer Bgcolor
+			* @tip Footer Bgcolor
+			*/
+
+      .mcbc-footer {
+        /*@editable*/
+        background-color: #ffffff !important;
+        background-image: url(https://res.cloudinary.com/dvezs6lzj/image/upload/v1668691710/mountain_povduk.png);
+        background-position: top;
+        background-size: cover;
+      }
+
+      /**
+			* @tab Pricing Head 1 Bgcolor
+			* @tip Pricing Head 1 Bgcolor
+			*/
+
+      .mcbc-pricing-1 {
+        /*@editable*/
+        background-color: #27ae60 !important;
+      }
+
+      /**
+			* @tab Pricing Head 2 Bgcolor
+			* @tip Pricing Head 2 Bgcolor
+			*/
+
+      .mcbc-pricing-2 {
+        /*@editable*/
+        background-color: #008080 !important;
+      }
+
+      /**
+			* @tab Pricing Body Bgcolor
+			* @tip Pricing Body Bgcolor
+			*/
+
+      .mcbc-pricing-body {
+        /*@editable*/
+        background-color: #ffffff !important;
+      }
+
+      /**
+			* @tab Blog Post 1 Bgcolor
+			* @tip Blog Post 1 Bgcolor
+			*/
+
+      .mcbc-blog-1 {
+        /*@editable*/
+        background-color: #ffffff !important;
+      }
+
+      /**
+			* @tab Blog Post 2 Bgcolor
+			* @tip Blog Post 2 Bgcolor
+			*/
+
+      .mcbc-blog-2 {
+        /*@editable*/
+        background-color: #ffffff !important;
+      }
+
+      /**
+			* @tab Button BgColor
+			* @tip Button BgColor
+			*/
+
+      .mcbc-btn {
+        /*@editable*/
+        background-color: #27ae60 !important;
+      }
+
+      /**
+			* @tab Button White BgColor
+			* @tip Button White BgColor
+			*/
+
+      .mcbc-btn-white {
+        /*@editable*/
+        background-color: #ffffff !important;
+      }
+
+      /**
+			* @tab BuyNow 1 BgColor
+			* @tip BuyNow 1 BgColor
+			*/
+
+      .mcbc-btn-buy1 {
+        /*@editable*/
+        background-color: #27ae60 !important;
+      }
+
+      /**
+			* @tab BuyNow 2 BgColor
+			* @tip BuyNow 2 BgColor
+			*/
+
+      .mcbc-btn-buy2 {
+        /*@editable*/
+        background-color: #008080 !important;
+      }
+
+      /**
+			* @tab Button Border
+			* @tip Button Border
+			*/
+
+      .mcbr-btn {
+        /*@editable*/
+        border: 1px solid #ffffff !important;
+      }
+
+      /**
+			* @tab Team Border Bottom
+			* @tip Team Border Bottom
+			*/
+
+      .mcbr-team {
+        /*@editable*/
+        border-bottom: 2px solid #27ae60 !important;
+      }
+
+      /**
+			* @tab Header Background Image
+			* @tip Header Background Image
+			*/
+
+      .mcbi-header {
+        /*@editable*/
+        background-position: center !important;
+        /*@editable*/
+        background-repeat: no-repeat !important;
+        /*@editable*/
+        background-color: #374d57 !important;
+      }
+
+      /**
+			* @tab CTA Background Image
+			* @tip CTA Background Image
+			*/
+
+      .mcbi-cta {
+        /*@editable*/
+        background-image: url("http://fourdinos.com/demo/seabird/images/700x275.jpg") !important;
+        /*@editable*/
+        background-position: center !important;
+        /*@editable*/
+        background-repeat: no-repeat !important;
+      }
+
+      /**
+			* @tab Download Background Image
+			* @tip Download Background Image
+			*/
+
+      .mcbi-download {
+        /*@editable*/
+        background-image: url("http://fourdinos.com/demo/seabird/images/700x375.jpg") !important;
+        /*@editable*/
+        background-position: center !important;
+        /*@editable*/
+        background-repeat: no-repeat !important;
+      }
+
+      /**
+			* @tab Creative Background Image
+			* @tip Creative Background Image
+			*/
+
+      .mcbi-creative {
+        /*@editable*/
+        background-image: url("http://fourdinos.com/demo/seabird/images/700x320.jpg") !important;
+        /*@editable*/
+        background-position: center !important;
+        /*@editable*/
+        background-repeat: no-repeat !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- TWO COLUMN STARTS -->
+    <table
+      align="center"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      width="600"
+      class="display-width"
+      mc:repeatable="mc"
+    >
+      <tbody>
+        <tr>
+          <td align="center">
+            <table
+              align="center"
+              border="0"
+              cellpadding="0"
+              class="mcbc-white"
+              cellspacing="0"
+              width="100%"
+            >
+              <tbody>
+                <tr>
+                  <td align="center" style="padding: 0 16px">
+                    <table
+                      align="center"
+                      border="0"
+                      cellpadding="0"
+                      cellspacing="0"
+                      class="display-width"
+                      width="100%"
+                    >
+                      <tbody>
+                        <tr>
+                          <td align="center">
+                            <table
+                              align="center"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="display-width"
+                              width="100%"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td height="60"></td>
+                                </tr>
+                                <tr>
+                                  <td class="direction-sm-reverse">
+                                    <!-- TABLE LEFT -->
+                                    <table
+                                      class="text-box"
+                                      align="left"
+                                      border="0"
+                                      cellpadding="0"
+                                      cellspacing="0"
+                                      width="46%"
+                                      style="
+                                        border-collapse: collapse;
+                                        mso-table-lspace: 0pt;
+                                        mso-table-rspace: 0pt;
+                                      "
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td
+                                            align="left"
+                                            style="
+                                              color: #b32615;
+                                              font-size: 18px;
+                                              font-weight: 600;
+                                              letter-spacing: 1px;
+                                              line-height: 28px;
+                                              text-transform: capitalize;
+                                            "
+                                          >
+                                            HIER STEHT EINE ÜBERSCHRIFT
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20"></td>
+                                        </tr>
+                                        <tr>
+                                          <td
+                                            align="left"
+                                            style="
+                                              color: #666666;
+                                              font-size: 14px;
+                                              line-height: 24px;
+                                            "
+                                          >
+                                            Aquatiandem veris maximaximint
+                                            quatesc imilign iandebitius et
+                                            verspidita dist quatecusdam ium
+                                            fugitas imusdaectati quae volupta
+                                            iducia dolendam fugiandendi ut omnit
+                                            aut mi.
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <a
+                                              href="#"
+                                              style="
+                                                color: #b32615;
+                                                text-decoration: none;
+                                              "
+                                            >
+                                              Read more
+                                            </a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                    <table
+                                      align="left"
+                                      border="0"
+                                      cellpadding="0"
+                                      cellspacing="0"
+                                      width="1"
+                                      style="
+                                        border-collapse: collapse;
+                                        mso-table-lspace: 0pt;
+                                        mso-table-rspace: 0pt;
+                                      "
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td
+                                            style="line-height: 40px"
+                                            height="40"
+                                            width="1"
+                                          ></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                    <!-- TABLE RIGHT -->
+
+                                    <table
+                                      align="right"
+                                      border="0"
+                                      cellpadding="0"
+                                      cellspacing="0"
+                                      class="display-width image-box"
+                                      width="48%"
+                                      style="
+                                        border-collapse: collapse;
+                                        mso-table-lspace: 0pt;
+                                        mso-table-rspace: 0pt;
+                                      "
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td
+                                            class="float-sm-left"
+                                            align="left"
+                                            style="
+                                              background-image: url(https://www.hochfuegenski.com/fileadmin/_processed_/7/4/csm_infobox-3_4bc8d336fd.jpg);
+                                              background-repeat: no-repeat;
+                                              background-size: cover;
+                                            "
+                                          >
+                                            <table
+                                              align="left"
+                                              border="0"
+                                              cellpadding="0"
+                                              cellspacing="0"
+                                              class="display-width"
+                                              width="100%"
+                                            >
+                                              <tbody>
+                                                <tr>
+                                                  <td height="280"></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center">
+                            <table
+                              align="center"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              class="display-width"
+                              width="100%"
+                            >
+                              <tbody>
+                                <tr>
+                                  <td height="60"></td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <!-- TABLE LEFT -->
+
+                                    <table
+                                      align="left"
+                                      border="0"
+                                      cellpadding="0"
+                                      cellspacing="0"
+                                      class="display-width"
+                                      width="46%"
+                                      style="
+                                        border-collapse: collapse;
+                                        mso-table-lspace: 0pt;
+                                        mso-table-rspace: 0pt;
+                                      "
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td
+                                            align="left"
+                                            height="280"
+                                            style="
+                                              background-image: url(https://www.hochfuegenski.com/fileadmin/_processed_/2/3/csm_infobox-4_2a326f42d9.jpg);
+                                              background-repeat: no-repeat;
+                                              background-size: cover;
+                                            "
+                                          ></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                    <table
+                                      align="left"
+                                      border="0"
+                                      cellpadding="0"
+                                      cellspacing="0"
+                                      width="1"
+                                      style="
+                                        border-collapse: collapse;
+                                        mso-table-lspace: 0pt;
+                                        mso-table-rspace: 0pt;
+                                      "
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td
+                                            style="line-height: 40px"
+                                            height="40"
+                                            width="1"
+                                          ></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                    <!-- TABLE RIGHT -->
+
+                                    <table
+                                      align="right"
+                                      border="0"
+                                      cellpadding="0"
+                                      cellspacing="0"
+                                      width="46%"
+                                      style="
+                                        border-collapse: collapse;
+                                        mso-table-lspace: 0pt;
+                                        mso-table-rspace: 0pt;
+                                      "
+                                    >
+                                      <tbody>
+                                        <tr>
+                                          <td
+                                            align="left"
+                                            style="
+                                              color: #b32615;
+                                              font-size: 18px;
+                                              font-weight: 600;
+                                              letter-spacing: 1px;
+                                              line-height: 28px;
+                                              text-transform: capitalize;
+                                            "
+                                          >
+                                            HIER STEHT EINE ÜBERSCHRIFT ÜBER
+                                            DREI ZEILEN
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20"></td>
+                                        </tr>
+                                        <tr>
+                                          <td
+                                            align="left"
+                                            style="
+                                              color: #666666;
+                                              font-size: 14px;
+                                              line-height: 24px;
+                                            "
+                                          >
+                                            Aquatiandem veris maximaximint
+                                            quatesc imilign iandebitius et
+                                            verspidita dist quatecusdam ium
+                                            fugitas imusdaectati quae volupta
+                                            iducia dolendam fugiandendi ut.
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <a
+                                              href="#"
+                                              style="
+                                                color: #b32615;
+                                                text-decoration: none;
+                                              "
+                                            >
+                                              Read more
+                                            </a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td height="60"></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- TWO COLUMN ENDS -->
+  </body>
+</html>
